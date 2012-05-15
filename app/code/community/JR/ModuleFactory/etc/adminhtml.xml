@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <system translate="title" module="adminhtml">
+            <children>
+                <create_module translate="title">
+                    <title>Create Module</title>
+                    <action>adminhtml/module_factory/new</action>
+                    <sort_order>1</sort_order>
+                </create_module>
+            </children>
+        </system>
+    </menu>
+</config>
